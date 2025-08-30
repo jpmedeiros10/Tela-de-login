@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main> <!--semantico de navegação-->
+        <form>
+            <h1>Login</h1>
+            <div class="input-group">
+                <input placeholder="Digite seu email" type="email">
+                <!-- type, quer dizer "tipo do input" bom sempre por, pois ele vai definir que é email e vai dar sugestão-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+
+            </div>
+
+            <div class="input-group">
+                <input placeholder="Digite sua senha" type="password">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-lock-fill" viewBox="0 0 16 16"> <!--codigo para icone-->
+                    <path fill-rule="evenodd"
+                        d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3" />
+                </svg>
+            </div>
+
+            <div class="input-remember">
+                <label> <!-- label é o texto que fica junto do input-->
+                    <input type="checkbox" id="remember" name="remember"> <!-- input checkbox para lembrar usuario-->
+                    Lembrar-me
+                </label>
+                <a href="#">Esqueci a senha</a> <!-- link para recuperar senha-->
+            </div>
+
+            <button type="submit" class="Login">Login</button> <!-- "submit" pois ele vai submeter ao formulario-->
+
+            <div class="input-links">
+                <p>Não tem uma conta ? <a href="#">Criar conta</a></p>
+                <!-- link para criar conta "# significa levar a lugar nenhum"-->
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
