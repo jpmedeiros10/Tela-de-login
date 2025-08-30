@@ -4,20 +4,21 @@
  
 <br>
 
-<p align="center">Este projeto foi desenvolvido com HTML e CSS, com o objetivo de criar uma página moderna, responsiva e intuitiva, focada na experiência de compras online através de dispositivos móveis e desktops.</p>
+<p align="center">Este projeto foi desenvolvido com HTML e CSS, com o objetivo de criar uma tela de login com background de imagem do meu super heroi favorito e aperfeiçoando as habilidades de display e deslocamento</p>
 
 <br>
-<img margin=200px src="https://github.com/jpmedeiros10/M-dulo-CSS-II---responsividade/blob/main/imagem/mockup%20joao%20pedro.png?raw=true" alt="img-principal"> 
+<img margin=200px src="https://github.com/jpmedeiros10/Tela-de-login/blob/main/imagem/mockup%20joao%20pedro%20(1).png?raw=true" alt="img-principal"> 
 <br>
 <br>
 
 <h2 font-wize=400>🎯 Funcionalidades</h2>
 
 <lu>
-  <li>Layout limpo e minimalista</li>
-  <li>Design responsivo para desktop e mobile</li>
-  <li>Seção de destaque com chamada para ação ("Get Started")</li>
-  <li>Estrutura base para expansão futura</li>
+  <li>Formulário estilizado com campos de login e senha</li>
+  <li>Design inspirado no Homem-Aranha</li>
+  <li>Seção de destaque para um background com imagem</li>
+  <li>Layout responsivo para desktop e mobile</li>
+  <li>Interface ajustada automaticamente conforme auteraçao do tamanho da tela</li>
 </lu>
 <br>
 <h2 font-wize=400>🛠️ Tecnologias Utilizadas</h2>
@@ -34,7 +35,7 @@
 
  ┣ 📂 assets
  
- ┃ ┗ 📜 mockup-joao-pedro.png
+ ┃ ┗ 📜 mockup-joao-pedro(1).png
  
  ┣ 📜 index.html
  
@@ -47,8 +48,7 @@
 <h2 font-wize=400>📌 Melhorias Futuras</h2>
 <lu>
   <li>Adicionar interatividade com JavaScript</li>
-  <li>Criar páginas internas de produto</li>
-  <li>Implementar animações sutis no design</li>
+  <li>Criar páginas para implementação</li>
 </lu>
 
 <br>
